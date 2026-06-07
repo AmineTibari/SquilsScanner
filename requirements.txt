@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-multipart
+transformers==4.57.6
+optimum==1.26.0
+accelerate==1.8.0
+peft==0.17.0
+json-repair
+pillow
+python-jose
+passlib[bcrypt]
+email-validator
+torch>=2.6
+sqlalchemy
+psycopg2-binary
+python-dotenv
