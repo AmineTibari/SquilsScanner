@@ -10,7 +10,8 @@ pillow
 python-jose
 passlib[bcrypt]
 email-validator
-torch>=2.6
+torch=2.6.0
+torchvision
 sqlalchemy
 psycopg2-binary
 python-dotenv
