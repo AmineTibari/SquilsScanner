@@ -72,8 +72,9 @@ def extract_invoice(image_path: str):
     with torch.inference_mode():
         outputs = model.generate(
             **inputs,
-            max_new_tokens=2048,
-            do_sample=False
+            max_new_tokens=1024,
+            do_sample=False,
+            use_cache=True
         )
 
     generated_tokens = outputs[0][input_len:]
